@@ -37,12 +37,6 @@ defmodule Task1aSumOfSubsets do
          """
          def valid_sum(matrix_of_sum) do
 
-           for i <- 1..matrix_of_sum.length do
-             for j <- 1..matrix_of_sum.length do
-               IO.puts matrix_of_sum(i,j)
-             end
-           end
-
          end
 
 
